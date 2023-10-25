@@ -1,0 +1,11 @@
+framework module Math_Alamofire {
+  umbrella header "Math_Alamofire.h"
+  export *
+
+  module * { export * }
+}
+
+module Math_Alamofire.Swift {
+  header "Math_Alamofire-Swift.h"
+  requires objc
+}

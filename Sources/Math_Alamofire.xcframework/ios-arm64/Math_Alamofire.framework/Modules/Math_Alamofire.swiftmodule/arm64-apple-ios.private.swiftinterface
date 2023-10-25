@@ -1,0 +1,16 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Math_Alamofire
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import Math_Alamofire
+import Reachability
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers public class Math_Alamofire : ObjectiveC.NSObject {
+  public func testAlamofire()
+  @objc override dynamic public init()
+  @objc deinit
+}
