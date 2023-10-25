@@ -13,8 +13,9 @@ let package = Package(
     ],
     
     dependencies: [
-        .package(url: "https://github.com/ashleymills/Reachability.swift", .upToNextMajor(from: "5.1.0")),
-    ],
+//        .package(url: "https://github.com/ashleymills/Reachability.swift", .upToNextMajor(from: "5.1.0")),
+        .package(url: "https://github.com/ashleymills/Reachability.swift", branch: "master")
+  ],
     
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
