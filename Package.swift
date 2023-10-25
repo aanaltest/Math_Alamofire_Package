@@ -22,7 +22,7 @@ let package = Package(
         .target(
             name: "Math_Alamofire_Package",
             dependencies: [
-//                .target(name: "Math_Alamofire"),
+                .target(name: "Math_Alamofire"),
 //                .product(name: "Reachability.swift", package: "Reachability.swift")
                 .product(name: "Reachability", package: "Reachability.swift"),
 
