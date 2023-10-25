@@ -28,7 +28,6 @@ let package = Package(
 
             ]),
 
-        
             .binaryTarget(
                 name: "Math_Alamofire",
                 path: "./Sources/Math_Alamofire.xcframework"
